@@ -117,7 +117,7 @@ public class CoolingJdbc implements ICoolingJdbc {
   }
 
 
-  @Override
+ /* @Override
   public void clearTray(Integer trayId) {
     L.info("clearTray: trayId: " + trayId);
 
@@ -171,4 +171,5 @@ public class CoolingJdbc implements ICoolingJdbc {
       throw new CoolingSystemException(e);
     }
   }
+  */
 }
